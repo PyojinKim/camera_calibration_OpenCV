@@ -353,8 +353,10 @@ int main(int argc, char** argv)
 
 
     // define directory for calibration images
-    imagelistfn = "../chessboard_images_examples/stereo_calib.xml";
-    boardSize = Size(9, 6); // the number of inner corners of [width/height]
+    //imagelistfn = "../chessboard_images_examples/stereo_calib.xml";
+    //boardSize = Size(9, 6); // the number of inner corners of [width/height]
+    imagelistfn = "../chessboard_images_VIsensor_ICSL/stereo_calib.xml";
+    boardSize = Size(7, 4); // the number of inner corners of [width/height]
 
 
     // for debug
