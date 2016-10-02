@@ -27,3 +27,15 @@
 *.exe
 *.out
 *.app
+
+# build folders
+monocular_calibration/build
+stereo_calibration/build
+
+# Images
+*.png
+*.jpg
+
+# backup files
+*~
+
