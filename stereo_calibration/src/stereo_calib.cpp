@@ -66,7 +66,7 @@ static void StereoCalib(const vector<string>& imagelist, Size boardSize, bool us
 
     bool displayCorners = true;
     const int maxScale = 2;
-    const float squareSize = 2.6f;  // Set this to your actual square size
+    const float squareSize = 1.f;  // Set this to your actual square size
     // ARRAY AND VECTOR STORAGE:
 
     vector<vector<Point2f> > imagePoints[2];
@@ -353,10 +353,10 @@ int main(int argc, char** argv)
 
 
     // define directory for calibration images
-    //imagelistfn = "../chessboard_images_examples/stereo_calib.xml";
-    //boardSize = Size(9, 6); // the number of inner corners of [width/height]
-    imagelistfn = "../chessboard_images_VIsensor_ICSL/stereo_calib.xml";
-    boardSize = Size(7, 4); // the number of inner corners of [width/height]
+    imagelistfn = "../chessboard_images_examples/stereo_calib.xml";
+    boardSize = Size(9, 6); // the number of inner corners of [width/height]
+    //imagelistfn = "../chessboard_images_VIsensor_ICSL/stereo_calib.xml";
+    //boardSize = Size(7, 4); // the number of inner corners of [width/height]
 
 
     // for debug
