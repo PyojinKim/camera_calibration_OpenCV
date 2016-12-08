@@ -30,6 +30,7 @@
 
 # build folders
 monocular_calibration/build
+rgbdodometry/build
 stereo_calibration/build
 
 # Images
